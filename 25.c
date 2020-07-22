@@ -14,9 +14,9 @@ int main(){
   printf("Enter n : ");
   scanf("%d",&n);
 
-  for(i=0;i<2*n+1;i++){
-    for(j=n;j>=abs(n-i);j--){
-      printf("%c",65+j);
+  for(i=1;i<=2*n-1;i++){
+    for(j=n;j>abs(n-i);j--){
+      printf("%c",64+j);
     }printf("\n");
   }
 }
