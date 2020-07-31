@@ -1,0 +1,17 @@
+/*
+          *  *  *  *  *  *  *
+          *  *           *  *
+          *     *     *     *
+          *        *        *
+          *     *     *     *
+          *  *           *  *
+          *  *  *  *  *  *  *
+*/
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+  int i,j,n;
+  printf("Enter n : ");
+  scanf("%d",&n);
+  
+}
